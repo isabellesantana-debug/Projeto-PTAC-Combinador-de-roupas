@@ -1,0 +1,27 @@
+Breve resumo do problema que irá resolver:
+O projeto consiste em desenvolver uma aplicação que ajude o usuário a escolher combinações de roupas 
+de forma simples e organizada. O sistema permitirá cadastrar calças e blusas em duas tabelas diferentes e 
+combinar as peças para criar diferentes opções de looks. As combinações escolhidas poderão ser salvas para que o usuário 
+possa consultá-las posteriormente.
+
+
+Requisitos Funcionais
+O sistema deve permitir cadastrar calças.
+O sistema deve permitir cadastrar blusas.
+O sistema deve permitir visualizar as calças cadastradas.
+O sistema deve permitir visualizar as blusas cadastradas.
+O sistema deve permitir combinar uma calça com uma blusa.
+O sistema deve permitir salvar uma combinação.
+O sistema deve permitir visualizar as combinações salvas.
+O sistema deve permitir editar ou excluir peças cadastradas.
+O sistema deve permitir excluir combinações salvas.
+
+Requisitos Não Funcionais
+O sistema deve possuir uma interface simples e fácil de utilizar.
+Os dados devem ser armazenados em um banco de dados.
+O sistema deve possuir duas tabelas principais, uma para blusas e outra para calças, além da estrutura necessária para armazenar as combinações.
+O sistema deve apresentar as informações de forma organizada e clara.
+O sistema deve funcionar corretamente em computadores e navegadores compatíveis.
+As operações de cadastro, combinação e salvamento devem apresentar respostas rápidas ao usuário.
+
+
