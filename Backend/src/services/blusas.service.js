@@ -10,7 +10,6 @@ function criarErro(mensagem, status) {
     return erro;
 }
 
-// Verifica se já existe uma blusa ativa com o mesmo nome
 function verificarNomeUnico(nome, blusas, idIgnorado = null) {
     const nomeNormalizado = nome.trim().toLowerCase();
     const duplicada = blusas.some(blusa =>
