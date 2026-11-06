@@ -11,5 +11,17 @@
     "createdAt": "2026-11-06T04:28:33.430Z",
     "updatedAt": "2026-11-06T04:34:16.838Z",
     "deletedAt": "2026-11-06T04:47:57.821Z"
+  },
+  {
+    "nome": "Calca jeans azul",
+    "tipo": "Jeans",
+    "cor": [
+      "Azul"
+    ],
+    "modelagem": "Reta",
+    "cintura": "Alta",
+    "id": 2,
+    "createdAt": "2026-11-06T05:10:23.992Z",
+    "updatedAt": "2026-11-06T05:10:23.992Z"
   }
 ]
