@@ -1,11 +1,12 @@
 import express from "express";
 import blusasRoutes from "./routes/blusas.routes.js";
 import { erroHandler } from "./middlewares/erro.js";
-
+import { log } from "./middlewares/log.js";
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
+app.use(log);
 
 app.get("/", (req, res) => {
     res.send("API Combinador de Roupas funcionando!")
