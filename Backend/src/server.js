@@ -1,3 +1,5 @@
+import blusasRoutes from "./routes/blusas.routes.js";
+
 import express from "express";
 
 const app = express();
@@ -7,6 +9,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
     res.send("API Combinador de Roupas funcionando!")
 });
+
+app.use("/blusas", blusasRoutes);
 
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`)
