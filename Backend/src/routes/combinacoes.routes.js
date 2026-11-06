@@ -4,7 +4,7 @@ import * as combinacoesController from "../controllers/combinacoes.controller.js
 
 import { valida } from "../middlewares/valida.js";
 
-import { combinacaoSchema } from "../schemas/combinacao.schema.js";
+import { combinacaoSchema } from "../schemas/combinacoes.schema.js";
 
 const router = Router();
 
