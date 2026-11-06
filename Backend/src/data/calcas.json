@@ -1,14 +1,14 @@
 [
   {
-    "nome": "Calca jeans b�sica",
+    "nome": "Calça jeans básica atualizada",
     "tipo": "Jeans",
     "cor": [
-      "Azul"
+      "Azul escuro"
     ],
     "modelagem": "Reta",
-    "cintura": "Alta",
+    "cintura": "Média",
     "id": 1,
     "createdAt": "2026-11-06T04:28:33.430Z",
-    "updatedAt": "2026-11-06T04:28:33.430Z"
+    "updatedAt": "2026-11-06T04:34:16.838Z"
   }
 ]
