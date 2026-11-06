@@ -13,7 +13,6 @@ app.get("/", (req, res) => {
 
 app.use("/blusas", blusasRoutes);
 
-// Tratamento de erros deve ficar depois das rotas
 app.use(erroHandler);
 
 app.listen(PORT, () => {
