@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "nome": "Blusa basica",
+    "tipo": "Camiseta",
+    "cor": [
+      "Preto"
+    ],
+    "manga": "Curta",
+    "id": 1,
+    "createdAt": "2026-11-06T03:02:58.178Z",
+    "updatedAt": "2026-11-06T03:02:58.178Z"
+  }
+]
