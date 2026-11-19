@@ -1,4 +1,4 @@
-### Cadastrar uma blusa
+
 POST http://localhost:3000/blusas
 Content-Type: application/json
 
