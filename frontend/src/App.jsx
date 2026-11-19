@@ -1,8 +1,59 @@
-import { useState } from 'react'
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <header>
+        <h1>Combinador de Roupas</h1>
+        <p>Monte combinações com suas peças favoritas!</p>
+      </header>
+
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#blusas">Blusas</a>
+        <a href="#calcas">Calças</a>
+        <a href="#combinacoes">Combinações</a>
+      </nav>
+
+      <main>
+        <section id="inicio">
+          <h2>Bem-vindo!</h2>
+          <p>Organize suas roupas e descubra novas combinações.</p>
+        </section>
+
+        <section id="blusas">
+          <h2>Minhas Blusas</h2>
+          <div id="lista-blusas">
+          </div>
+        </section>
+
+        <section id="calcas">
+          <h2>Minhas Calças</h2>
+          <div id="lista-calcas">
+          </div>
+        </section>
+
+        <section id="combinacoes">
+          <h2>Minhas Combinações</h2>
+          <div id="lista-combinacoes">
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Combinador de Roupas - Projeto PTAC</p>
+      </footer>
+    </>
+  )
+}
+
+export default App
+
+
+/* import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -119,4 +170,4 @@ function App() {
   )
 }
 
-export default App
+*/
